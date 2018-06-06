@@ -31,9 +31,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <button className="Button" onClick={this.AddTask}>Add</button>
-          <button className="Button" onClick={this.RemoveTask}>Remove</button>
-          <button className="Button" onClick={this.ClearAllTask}>Clear</button>
+          <button className="Button Green" onClick={this.AddTask}>Add</button>
+          <button className="Button Blue" onClick={this.RemoveTask}>Remove</button>
+          <button className="Button Red" onClick={this.ClearAllTask}>Clear</button>
         </header>
         <main className="App-main">
        {taskList}
